@@ -1,8 +1,19 @@
 aid: butternut-box
 name: Butternut Box
-description: 'Butternut Box is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'Butternut Box is a London-headquartered direct-to-consumer pet nutrition
+  company that cooks and delivers fresh, gently-steamed dog food on a personalised
+  subscription. Customers complete an online profiling wizard covering their dog''s
+  breed, age, weight, activity level and health needs, and Butternut Box calculates
+  a portioned meal plan from human-quality meat and vegetables, batch-cooks it at low
+  temperature, freezes it, and ships it on a recurring schedule. Founded in 2016 and
+  certified as a B Corporation, the company operates nine locale storefronts covering
+  the United Kingdom, Ireland, the Netherlands, Belgium (Dutch and French), Germany,
+  Italy, Sweden and Denmark, and runs its own production facility alongside a React
+  / React Native / Ruby on Rails engineering stack. Butternut Box publishes no public
+  developer API, developer portal or machine-readable specification; its customer-facing
+  surfaces are the marketing site, the subscription web app and the iOS/Android apps.'
 url: https://raw.githubusercontent.com/api-evangelist/butternut-box/refs/heads/main/apis.yml
+image: https://a.storyblok.com/f/339951/1200x630/18d721bbbe/butternut-box-open-graph-image.png
 x-type: company
 x-source: harvest:secondary-market
 x-tier: stub
@@ -12,6 +23,14 @@ created: '2026-08-02'
 modified: '2026-08-02'
 tags:
 - Company
+- Pet Care
+- Pet Food
+- Direct to Consumer
+- Subscription
+- E-Commerce
+- Food and Beverage
+- Consumer Goods
+- United Kingdom
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +38,38 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/butternut-box-domain-security.yml
 - type: Website
+  url: https://butternutbox.com/
+- type: Blog
+  url: https://butternutbox.com/blog
+- type: Support
+  url: https://help.butternutbox.com/en/
+- type: Contact
+  url: https://butternutbox.com/contact
+- type: SignUp
+  url: https://app.butternutbox.com/wizard/new
+- type: Login
+  url: https://app.butternutbox.com/users/sign_in
+- type: TermsOfService
+  url: https://butternutbox.com/terms-and-conditions/2025
+- type: PrivacyPolicy
+  url: https://butternutbox.com/privacy-policy/2025
+- type: GitHubOrganization
+  url: https://github.com/ButternutBox
+- type: Careers
+  url: https://butternutbox.com/careers
+- type: Sustainability
+  url: https://butternutbox.com/sustainability
+- type: Certification
+  url: https://www.bcorporation.net/en-us/find-a-b-corp/company/butternut-box/
+- type: LLMsTxt
+  url: llms/butternut-box-llms.txt
+- type: SecondaryMarket
   url: https://www.hiive.com/securities/butternut-box-stock
+x-enrichment:
+  date: '2026-08-02'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
