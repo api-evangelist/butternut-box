@@ -13,6 +13,17 @@ description: 'Butternut Box is a London-headquartered direct-to-consumer pet nut
   developer API, developer portal or machine-readable specification; its customer-facing
   surfaces are the marketing site, the subscription web app and the iOS/Android apps.'
 url: https://raw.githubusercontent.com/api-evangelist/butternut-box/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://a.storyblok.com/f/339951/1200x630/18d721bbbe/butternut-box-open-graph-image.png
 x-type: company
 x-source: harvest:secondary-market
